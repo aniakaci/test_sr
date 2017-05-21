@@ -1,12 +1,3 @@
-## Instructions
-
-The following problems can be solved by any mean of your choice, although javascript is preferred for simplicity. 
-Your answer should consists of a github repo link with your code if you wrote any, a README.md explaining how to run your code, giving your numerical answers and all explanations that you deemed adequate.
-Bear in mind, we are more interested in your reasoning and coding than in your numerical answer. Even if you didn't get to an answer for a problem, we are still interested in your attempt.
-
-Feel free to add anything that you deem of interest (first ideas of solutions that did/didnt work, performance benchmarks... )
-Finaly, keep streamroot name out of the repository as it is a registered trademark.
-
 
 ## Problems
 
