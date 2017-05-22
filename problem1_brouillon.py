@@ -8,16 +8,6 @@ multiples_to_find_pb1 = [3, 5]
 max_value_pb1 = 10000
 
 
-def sum_geometric_serie(scale_factor, common_ratio, max_index):
-    """
-    The geometric suite gs_i is written as : gs_i = scale_factor * common_ratio**i
-    :param scale_factor: 
-    :param common_ratio: 
-    :param max_index: 
-    :return: The sum of the geomtric suite
-    """
-    return scale_factor * (1 - common_ratio ^ max_index) / (1 - common_ratio)
-
 
 def sum_multiples(multiple_to_find, max_value):
     res_sum = 0
