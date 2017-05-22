@@ -88,7 +88,7 @@ Extra points: Do you see any problems with running this kind of queue in a
 production envrionment?
 
 Solution: 
-je n'ai pas très bien compris le problème. Les accès conccurents à un massage en lecture ne sont pas autorisés. La suppression d'un message se fait au plus en 5 secondes (durant lesquels les autres workers ne sont pas autorisés à y accéder).
+je n'ai pas très bien compris le problème. Les accès concurrents à un massage en lecture ne sont pas autorisés. La suppression d'un message se fait au plus en 5 secondes (durant lesquels les autres workers ne sont pas autorisés à y accéder).
 view message: retroune next message??last message peut être?
 Un lock doit être fait sur l'entrée de la file.
 Il est préférable de séparer les opérations de lecture et d'écriture pour pouvoir faire des lectures simultanées de la même variable (message)
