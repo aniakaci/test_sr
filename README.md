@@ -1,4 +1,8 @@
 
+
+Exécution: Les codes sont écrits en python. Ils peuvent être exécutés directemement en ligne de commande. Les réponses sont printées.
+
+
 ## Problems
 
 Problem 1 is mandatory.
@@ -11,7 +15,8 @@ You are of course allowed to answer them all :)
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 Find the sum of all the multiples of 3 or 5 below 10000.
 
-Solution: 
+Solution: 26663333
+
 
 
 ### Problem 2
