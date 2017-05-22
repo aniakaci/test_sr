@@ -11,6 +11,8 @@ You are of course allowed to answer them all :)
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 Find the sum of all the multiples of 3 or 5 below 10000.
 
+Solution: 
+
 
 ### Problem 2
 
@@ -35,6 +37,9 @@ How many 6-input binary truth tables, τ, satisfy the formula
 
 for all 6-bit inputs (a, b, c, d, e, f)?
 
+Solution:
+J'ai mis quelques premières idées mais je n'ai pas réussi à trouver la solution sans énumérer tous les cas possibles.
+
 
 ### Problem 3
 
@@ -58,6 +63,8 @@ Example with N = 100 and (a_1, ..., a_n) = (1,2,3,4,5,6,7,8,9) :
 123 + 45 - 67 + 8 - 9 = 100
 123 - 4 - 5 - 6 - 7 + 8 - 9 = 100
 
+Solution:
+Les expressions générées sont printées.
 
 ### Problem 4
 
@@ -74,3 +81,9 @@ within 5 seconds or false if we were too slow.
 
 Extra points: Do you see any problems with running this kind of queue in a
 production envrionment?
+
+Solution: 
+je n'ai pas très bien compris le problème. Les accès conccurents à un massage en lecture ne sont pas autorisés. La suppression d'un message se fait au plus en 5 secondes (durant lesquels les autres workers ne sont pas autorisés à y accéder).
+view message: retroune next message??last message peut être?
+Un lock doit être fait sur l'entrée de la file.
+Il est préférable de séparer les opérations de lecture et d'écriture pour pouvoir faire des lectures simultanées de la même variable (message)
